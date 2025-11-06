@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+    
+    <h1 id="titulo">LM_formulario</h1>
+    <form action="cadastro.php" autocomplete="off">
+    <p><label for="Inome"><b>Nome</b></label> <input type="text" name="nome" id="Inome" required></p>
+        <p><label for="Isobrenome"><b>Sobrenome</b></label>: <input type="text" name="sobrenome" id="Isobrenome" required></p>
+        <p><label for="idade1"><b>Data de nascimento</b></label>: <input type="date" name="idade" id="idade1" required></p>
+        <label for="Genero"><p><b>Genero</b>
+            <label><input type="radio" name="devweb" value="M" required> masculino
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="F" required>feminino</label>
+        <label>
+            <input type="radio" name="devweb" value="outro" >outro</label>
+        </p>
+        </label>
+        
+        <div class="campo">
+            <label>
+                 <b>Email</b><input type= "email">
+                </label>
+
+        </div>
+        <p><b>qual desenvolvimento pretendes atuar?</b></p>
+        <div> 
+            <label>opções</label>
+            <select id="opção">
+                <option selected disabled value="">selecione...</option>
+                <option>backend</option>
+                <option>frontend</option>
+            
+            </select>
+
+        </div>
+
+        
+<div>
+    <fieldset class="grupo">
+    <label>selecione as linguagens que voce tem conhecimento</label><hr>
+ <input type="checkbox" name="tecnol1" id="tecnil2" value="Python">
+ <label for="tecnil2">python</label> <hr>
+ <input type="checkbox" name="tecnol" id="tecnol3" value="HTML">
+ <label for="tecnol3">C#</label><hr>
+ <input type="checkbox" name="tec" id="tec" value="c#"> 
+ <label for="tec">Java</label><hr>
+ <input type="checkbox" name="tecn4" id="tecn4">
+ <label for="tecn4">Java</label><hr>
+ <input type="checkbox" name="tecn5" id="tecn5">
+ <label for="tecn5">HTML</label>
+    <input type="checkbox" name="tenc6" id="tecn6">
+    <label for="tecn6">CSS</label>
+</fieldset>
+</div>
+<div>
+    <label><b>Conte-nos um pouco sobre a sua experiencia</b></label> <hr>
+<textarea row="50" style="width: 45em;"></textarea>
+</div>
+        
+         <p><input type="submit" value="Enviar"></p>
+    </form>
+
+        <!--<iframe src="https://www.cursoemvideo.com" frameborder="0" height="700" width="700"></iframe>  
+         O <iframe> (inline frame) serve para incorporar outro documento HTML dentro do documento atual, funcionando como uma "janela" para uma página da web diferente
+            height para altura
+            width para largura
+    </p>-->
+
+</body>
+</html>
